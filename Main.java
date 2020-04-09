@@ -26,11 +26,11 @@ class Main {
   private static double[] determineDoubleMultiset(String list){
     String[] items = list.split(",");
     int numberOfItems = items.length;
-    double[] finalList = new double[numberOfItems];
+    double[] determinedList = new double[numberOfItems];
     for (int i = 0; i < numberOfItems; i++){
-      finalList[i] = Double.parseDouble(items[i]);
+      determinedList[i] = Double.parseDouble(items[i]);
     }
 
-    return finalList;
+    return determinedList;
   }
 }
